@@ -1,1 +1,1 @@
-RICORDARSI DI LAVORARE SU QUERY IN QUANTO è LA VARIABILE CHE VA AD INFLUIRE NELLA RICERCA
+creare provider dopo aver fatto il map, nel provide sposto stutto tranne le funzione handle
