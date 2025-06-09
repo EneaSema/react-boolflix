@@ -1,6 +1,6 @@
 import { SearchProvider } from "./contexts/Searchcontext";
-import Header from "./assets/components/Header";
-import Main from "./assets/components/Main";
+import Header from "./assets/components/header-sections/Header";
+import Main from "./assets/components/main-sections/Main";
 
 function App() {
   return (
