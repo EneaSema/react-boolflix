@@ -47,6 +47,7 @@ const SearchProvider = ({ children }) => {
           original_language: movie.original_title,
           rating: movie.vote_average,
           flagLanguage: getFlag(movie.original_language),
+          poster: `https://image.tmdb.org/t/p/original${serie.poster_path}`,
         }));
         setMovies(result);
       })
@@ -68,10 +69,11 @@ const SearchProvider = ({ children }) => {
         const result = resp.data.results.map((serie, i) => ({
           id: serie.id,
           title: serie.name,
-          original_title: serie.orginal.name,
+          original_title: serie.original_name,
           original_language: serie.original_title,
           rating: serie.vote_average,
           flagLanguage: getFlag(serie.original_language),
+          poster: `https://image.tmdb.org/t/p/original${serie.poster_path}`,
         }));
         setSeries(result);
       })

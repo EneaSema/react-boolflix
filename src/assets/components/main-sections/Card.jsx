@@ -18,6 +18,9 @@ export default function Card({ media }) {
               </li>
               <hr />
               <li>{media.rating}</li>
+              <li>
+                <img src={media.poster} alt="" />
+              </li>
             </ul>
           </div>
         </div>
